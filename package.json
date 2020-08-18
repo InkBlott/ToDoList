@@ -1,0 +1,24 @@
+{
+  "name": "ToDoList",
+  "version": "1.0.0",
+  "description": "ToDo webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InkBlott/ToDoList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InkBlott/ToDoList/issues"
+  },
+  "homepage": "https://github.com/InkBlott/ToDoList#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
