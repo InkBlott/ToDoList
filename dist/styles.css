@@ -1,0 +1,212 @@
+body {
+margin: 0;
+
+}
+
+#titleBar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #512fe9;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    color: white;
+    height: 50px;
+}
+
+#mainContainer{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+}
+
+#projectContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #5976fa;
+    min-height: 100vh;
+    min-width: 280px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+    font-weight: 1000;
+    font-size: 1.2em;
+    padding: 10px;
+    align-items: center;
+}
+
+.divideLine{
+    border-top: 1px solid white;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#addProjBtn{
+    border:2px solid white;
+    border-radius: 10px;
+    width: 50%;
+    height: 30px;
+    color: white;
+    font-weight: 800;
+    min-width: 120px;
+
+    background-color: transparent;
+}
+
+#addProjBtn:hover{
+    background-color: #512fe9;
+}
+
+#listContainer{
+    width: 100%;
+}
+
+.listControlButton{
+    margin: 40px;
+    border:2px solid #5976fa;
+    border-radius: 10px;
+    height: 30px;
+    color: #5976fa;
+    font-weight: 800;
+    min-width: 120px;
+    background-color: transparent;
+}
+
+.project{
+    display: flex;
+    font-weight: 800;
+    font-size: 0.9rem;
+    border:1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 120px;
+    width: 80%;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+}
+
+.project:hover{
+    color: orangered;
+    border-color: orangered;
+}
+
+
+.projectButtons{
+    display: grid;
+    margin-top: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+
+.selector{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: white;
+    width: 180px;
+}
+
+.completed{
+    color: grey;
+    border-color: grey !important;
+}
+
+.formBtn{
+    background-color: orangered;
+    border: none;
+    border-radius: 15px;
+    width: 180px;
+    height: 30px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 750;
+    font-size: 0.9em;
+    color: white;
+}
+
+.formBtn:hover{
+    background-color: rgb(255, 111, 59) ;
+}
+
+.projBtn{
+    text-transform: uppercase;
+    background-color: orangered;
+    border: none;
+    border-radius: 15px;
+    max-width: 90px;
+    min-width: 50px;
+    height: 20px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+    color: white;
+}
+
+.projBtn2{
+    text-transform: uppercase;
+    background-color: orangered;
+    border: none;
+    border-radius: 15px;
+    max-width: 150px;
+    min-width: 100px;
+    height: 20px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+    color: white;
+}
+
+.projBtn:hover{
+    background-color: rgb(255, 111, 59);
+}
+
+.visibility{
+    display: none;
+}
+
+#todoContainer{
+    padding: 20px 50px 20px;
+    color: #512fe9;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.todoItem{
+    min-width: 500px;
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr;
+    width: 100%;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.todoText{
+    display: flex;
+    grid-row: 1/3;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.todoInput{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 750;
+    position: fixed;
+    background-color: #512fe9;
+    color:white;
+    border-radius: 15px;
+    width: 300px;
+    height: 250px;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    text-align: center;
+}
