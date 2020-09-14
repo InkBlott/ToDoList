@@ -1,3 +1,3 @@
 # ToDoList
 
-ToDo webpage
+basic ToDo webpage, saves to localStorage. Uses modules and webpack.
